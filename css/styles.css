@@ -1,0 +1,234 @@
+/* =========HEADER======== */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455; 
+    background-color: #FFFFFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.header-logo {
+    color: #4d5ae5;
+        font-family: Raleway, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.header-logo-navy {
+    color:#2E2F42;
+}
+
+.header-menu-link {
+    color:#2E2F42;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.header-menu-link:hover, .header-menu-link:focus {
+    color: #404bbf;
+}
+
+.address { 
+    font-style: normal;
+}
+
+.address-list {}
+
+.address-item {}
+
+.address-link {
+    color:#434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-link:hover, .address-link:focus {
+    color:#404bbf; 
+}
+
+/* ===================== */
+/* ========HERO====== */
+
+.hero {
+    background:#2E2F42;
+}
+
+.hero-title {
+    color:#FFF;
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-btn {
+    color: #FFF;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.hero-btn:hover, .hero-btn:focus {
+    background-color: #404BBF;
+}
+
+/* ==================== */
+
+/* ========SOLUTIONS===== */
+
+.solutions {}
+
+.solutions-list {}
+
+.solutions-item {}
+
+.solutions-subtitle {
+        color:#2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.solutions-text {
+    color:#434455;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/* ====================== */
+
+/*===========TEAM======= */
+
+.team {
+    background: #f4f4fd;;
+}
+
+.team-title {
+    color:#2E2F42;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.team-list { 
+    background-color: #FFFFFF;
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+
+.team-picture {}
+
+.team-subtitle {
+    color:#2E2F42;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.team-text {
+    color:#434455;
+        text-align: center;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/* ==================== */
+
+/* ============PORTFOLIO========= */
+
+.portfolio {}
+
+.portfolio-title {
+    color:#2E2F42;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.portfolio-list {
+    background-color: #FFFFFF;
+}
+
+.portfolio-item {}
+
+.portfolio-picture {}
+
+.portfolio-subtitle {
+    color:#2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+    color: #434455;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/* ================== */
+
+/* ============FOOTER======== */
+
+.footer {
+    background:#2E2F42;
+}
+
+.footer-logo-link {
+    color:#4d5ae5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-logo-navy {
+    color:#f4f4fd; 
+}
+
+.footer-text {
+    color:#F4F4FD;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
