@@ -24,15 +24,12 @@ ul {
     margin: 0 auto;
 }
 
-.visually-hidden {
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    overflow: hidden;
-    white-space: nowrap;
-}
-
 a {
     text-decoration: none;
+}
+
+img {
+    display: block;
 }
 
 .header {
@@ -117,8 +114,7 @@ flex-grow: 1;
 
 .hero {
     background:#2E2F42;
-    padding-top: 188px;
-    padding-bottom: 292px;
+    padding:188px 0;
 }
 
 .hero-title {
@@ -150,7 +146,7 @@ flex-grow: 1;
     border: none;
     margin: 0 auto;
     margin-top: 48px;
-    
+    min-width: 169px
 }
 
 .hero-btn:hover, .hero-btn:focus {
@@ -161,6 +157,18 @@ flex-grow: 1;
 
 /* ========SOLUTIONS===== */
 
+.visually-hidden {
+            border: 0;
+            clip: rect(0 0 0 0);
+            clip-path: inset(50%);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px;
+            white-space: nowrap;
+}
 .solutions {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -179,6 +187,7 @@ flex-grow: 1;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px
 }
 
 .solutions-text {
@@ -197,6 +206,10 @@ flex-grow: 1;
     background: #f4f4fd;
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.name {
+    padding: 32px 0;
 }
 
 .team-title {
@@ -281,6 +294,7 @@ flex-grow: 1;
     border-bottom: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
+    padding: 32px 16px;
 
 }
 
@@ -296,6 +310,7 @@ flex-grow: 1;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px
 }
 
 .portfolio-text {
